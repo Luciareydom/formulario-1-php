@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de contacto">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <main class="main-content">
+        <form action="send.php" method="post">
+            <h1>Formulario</h1>
+            <ul class="fields">
+                <li class="field">
+                    <label>
+                        Nombre
+                        <input type="text" name="nombre" placeholder="Lucía">
+                    </label>
+                </li>
+                <li class="field">
+                    <label>
+                        Apellidos
+                        <input type="text" name="apellidos" placeholder="Rey">
+                    </label>
+                </li>
+                <li class="field">
+                    <label>
+                        Edad
+                        <input type="number" name="edad">
+                    </label>
+                </li>
+                <li class="field">
+                    <fieldset>
+                        <legend>Género</legend>
+                        <label class="radio-btn"><input type="radio" name="genero" value="hombre">Hombre</label>
+                        <label class="radio-btn"><input type="radio" name="genero" value="mujer">Mujer</label>
+                        <label class="radio-btn"><input type="radio" name="genero" value="otro">Otro</label>
+                    </fieldset>
+                </li>
+                <li class="field">
+                    <label>
+                        Correo electrónico
+                        <input type="email" name="email" placeholder="lucia@gmail.com">
+                    </label>
+                </li>
+                <li class="field">
+                    <label>
+                        Teléfono
+                        <input type="tel" name="tlf" placeholder="987654321">
+                    </label>
+                </li>
+            </ul>
+
+
+
+            <button>Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
