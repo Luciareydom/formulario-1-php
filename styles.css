@@ -36,6 +36,7 @@ ul {
 form {
     max-width: 300px;
     padding: 2rem;
+    margin: auto;
     background-color: rgb(189, 236, 209);
     border-color: rgb(142, 180, 158);
     border-style: solid;
@@ -82,7 +83,7 @@ a:hover {
 }
 
 .main-content {
-    max-width: 1240px;
+    max-width: 1240px; 
     margin: auto;
 }
 
